@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
 export default function FlatCards() {
   return (
     <View style={styles.container}>
-      <Text style={styles.headingText}>FlatBoxes</Text>
+      <Text style={styles.headingText}>Flat Cards</Text>
       <View style={styles.flatCardsWrapper}>
         <View style={[styles.flatCard, styles.flatCard01]}>
           <Text style={styles.flatCardText}>Red</Text>
